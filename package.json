@@ -1,0 +1,24 @@
+{
+  "name": "@seirdotexe/repo_name",
+  "version": "1.0.0",
+  "description": "Repository description matching Github description.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start_dev": "tsc && node --env-file=config/dev.env src/index.ts",
+    "start": "tsc && pm2-runtime start config/my_app.config.cjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "^24"
+  },
+  "dependencies": {
+    "pm2": "^7.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "7.0.2"
+  },
+  "author": "seirdotexe",
+  "license": "BSD-3-Clause"
+}

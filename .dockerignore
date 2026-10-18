@@ -1,0 +1,14 @@
+# Folders
+node_modules/
+.git/
+.github/
+# Files
+config/dev.env
+.dockerignore
+Dockerfile
+compose.yml
+.gitignore
+README.md
+TODO.md
+LICENSE
+playground.js
